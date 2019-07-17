@@ -3,6 +3,7 @@ Author: Mehran Goli
 Version: 1.0
 Date: 17-8-2019
 */
+/*
 module BinaryToBcd(input[8:0] binary ,output [3:0] three,two,one);
 
 	wire [3:0] A,B,C,D,E,F,G,H,I;
@@ -22,3 +23,4 @@ module BinaryToBcd(input[8:0] binary ,output [3:0] three,two,one);
 	assign three = {1'b0,D[3],F[3],H[3]};
 
 endmodule
+*/
